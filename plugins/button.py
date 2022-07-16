@@ -41,14 +41,13 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and FORCE_SUB_CHANNEL2 and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ ᴜᴛᴀᴍᴀ", url=client.invitelink),
+                InlineKeyboardButton(text="ᴛɪᴋᴛᴏᴋ ᴠɪʀᴀʟ", url=f"https://t.me/TiktokViralHunter"),
             ],
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
-                InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=client.invitelink2),
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink3),
+                InlineKeyboardButton(text="ʟɪᴠᴇ sʜᴏᴡ ʙᴀʀ-ʙᴀʀ", url=f"https://t.me/liveshowid"),
             ],
-            [InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")],
+            [InlineKeyboardButton(text="ᴠᴄs ʀᴇᴀʟ [ᴏᴘᴇɴ 𝟸𝟺 ᴊᴀᴍ]", url=f"https://t.me/vcsrealbot")],
         ]
         return buttons
 
