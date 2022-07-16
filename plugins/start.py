@@ -137,23 +137,23 @@ async def not_joined(client: Bot, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ¹",
                 url = client.invitelink),
             InlineKeyboardButton(
-                "Join Group",
-                url = client.invitelink2)
+                "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ²",
+                url = client.invitelink3)
         ],
         [
             InlineKeyboardButton(
-                "Join Channel",
-                url = client.invitelink3),
+                "ᴊᴏɪɴ ɢʀᴏᴜᴘ",
+                url = client.invitelink2),
         ]
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = 'ʀᴇsᴛᴀʀᴛ ʙᴏᴛ',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
